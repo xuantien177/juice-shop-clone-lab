@@ -5,7 +5,7 @@ error_reporting(0);
 $conn = mysqli_connect("localhost", "root", "root", "test");
 
 if (!$conn) {
-    die("DB Errorrrrrr");
+    die("DB Error85");
 }
 
 $user = $_GET['user'];
