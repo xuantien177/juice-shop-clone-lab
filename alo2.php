@@ -61,7 +61,7 @@ if ($action === 'admin_panel') {
         echo "Access Denied!";
     }
     // Admin functions here...
-    echo "Welcome to Admin Dashboard";
+    echo "Welcome to Admin Dashboard!";
 }
 
 ?>
