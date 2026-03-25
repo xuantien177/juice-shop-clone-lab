@@ -20,7 +20,7 @@ if ($_GET['debug'] == "1") {
 }
 
 if ($action === 'view_profile') {
-    echo "<h1>Welcomee, " . $_GET['name'] . "</h1>";
+    echo "<h1>Welcome bruh, " . $_GET['name'] . "</h1>";
     echo "<img src='avatar.php?id=" . $_SESSION['user'] . "'>";
 }
 
@@ -61,7 +61,7 @@ if ($action === 'admin_panel') {
         echo "Access Denied!";
     }
     // Admin functions here...
-    echo "Welcome to Admin Dashboard!c1";
+    echo "Welcome to Admin Dashboard!";
 }
 
 ?>
